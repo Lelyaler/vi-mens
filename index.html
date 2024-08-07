@@ -1,0 +1,1658 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>Ви-менс</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__top">
+          <div class="header__container">
+            <div class="header__right">
+              <div class="header__logo">
+                <img src="./images/header/Логотип.svg" alt="logo" />
+              </div>
+              <div class="header__information">
+                <div class="header__info-adress">
+                  <div class="header__info-item">
+                    <img
+                      class="shadow-scale"
+                      src="./images/header/Group 74353.svg"
+                      alt="icon"
+                    />
+                    <span class="header__info-text"
+                      >Краснозвездная 18Б, офис 507-509</span
+                    >
+                  </div>
+                  <div class="header__info-item">
+                    <img
+                      class="shadow-scale"
+                      src="./images/header/Group 74354.svg"
+                      alt="icon"
+                    />
+                    <span class="header__info-text"
+                      >Зм. Бядули, д. 13, к. 5</span
+                    >
+                  </div>
+                  <div class="header__info-item">
+                    <svg
+                      class="ellipse scale-red"
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="4" cy="4" r="4" fill="#57BA0A" />
+                    </svg>
+
+                    <span class="header__info-text">Пн-Сб 10:00 - 21:00</span>
+                  </div>
+                </div>
+                <div class="header__info">
+                  <div class="search-wrapper">
+                    <input
+                      type="text"
+                      class="search-input"
+                      placeholder="Например, инструмент"
+                    />
+                    <button class="search-button">
+                      <img src="./images/header/search.svg" alt="Search" />
+                    </button>
+                  </div>
+                  <div class="social-icons">
+                    <a class="shadow-scale" href="#">
+                      <img src="./images/header/telegram.svg" alt="Telegram" />
+                    </a>
+                    <a class="shadow-scale" href="#">
+                      <img src="./images/header/yout.svg" alt="YouTube" />
+                    </a>
+                    <a class="shadow-scale" href="#">
+                      <img src="./images/header/viber.svg" alt="Viber" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="header__left">
+              <div class="header__info-button">
+                <button class="button__mail">
+                  <a href="#">info@vimens.ru</a>
+                </button>
+                <button class="button__header">Запрос</button>
+                <button class="button__header">
+                  <img
+                    src="./images/header/free-icon-warehouse-2312763 1 (traced).svg"
+                    alt="icon"
+                  />
+                  <span class="button__header-text">Склад</span>
+                </button>
+              </div>
+              <div class="contact-info">
+                <a href="tel:+375172940122">
+                  <img src="./images/header/phone.svg" alt="Phone" /> +375 17
+                  294 01 22
+                </a>
+                <div class="contact-divider"></div>
+                <a href="tel:+375295521386">
+                  <img src="./images/header/phone.svg" alt="Phone" /> +375 29
+                  552 13 86
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__menu">
+          <div class="header__menu-nav">
+            <ul class="nav__menu">
+              <li class="nav__menu-item">
+                <a class="nav__menu-link" href="#">ЛЕНТОЧНЫЕ ПИЛЫ</a>
+              </li>
+              <li class="nav__menu-item">
+                <a class="nav__menu-link" href="#">ОБОРУДОВАНИЕ</a>
+              </li>
+              <li class="nav__menu-item">
+                <a class="nav__menu-link" href="#">ИНСТРУМЕНТ</a>
+              </li>
+              <li class="nav__menu-item">
+                <a class="nav__menu-link" href="#">СЕРВИС 24/7</a>
+              </li>
+              <li class="nav__menu-item">
+                <a class="nav__menu-link" href="#">ЛИЗИНГ</a>
+              </li>
+              <li class="nav__menu-item">
+                <a class="nav__menu-link" href="#">ВАКАНСИИ</a>
+              </li>
+              <li class="nav__menu-item">
+                <a class="nav__menu-link" href="#">О КОМПАНИИ</a>
+              </li>
+              <li class="nav__menu-item">
+                <a class="nav__menu-link" href="#">КОНТАКТЫ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__menu-burger">
+            <div class="header__menu-burger__nav">
+              <ul class="burger__nav">
+                <li class="burger__nav-item">
+                  <a class="burger__menu-link" href="#" data-target="popup1"
+                    >ДИСКОВЫЕ ОТРЕЗНЫЕ СТАНКИ</a
+                  >
+                </li>
+                <li class="burger__nav-item">
+                  <a class="burger__menu-link" href="#" data-target="popup2"
+                    >ОБРАБАТЫВАЮЩИЕ ЦЕНТРЫ С ЧПУ</a
+                  >
+                </li>
+                <li class="burger__nav-item">
+                  <a class="burger__menu-link" href="#" data-target="popup3"
+                    >СВЕРЛИЛЬНО-РЕЗБОНАРЕЗНЫЕ СТАНКИ</a
+                  >
+                </li>
+                <li class="burger__nav-item">
+                  <a class="burger__menu-link" href="#" data-target="popup4"
+                    >ОБОРУДОВАНИЕ ДЛЯ ИЗГОТОВЛЕНИЯ МЕТАЛЛОКОНСТРУКЦИЙ</a
+                  >
+                </li>
+                <li class="burger__nav-item">
+                  <a class="burger__menu-link" href="#" data-target="popup5"
+                    >ЛАЗЕРНОЕ ОБОРУДОВАНИЕ</a
+                  >
+                </li>
+                <li class="burger__nav-item">
+                  <a class="burger__menu-link" href="#" data-target="popup6"
+                    >ДРОБЕМНТНОЕ ОБОРУДОВАНИЕ</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="popup__header" class="popup__header">
+            <div class="popup__header-item">
+              <img
+                src="./images/main/equipment/equipment-menu.svg"
+                alt="Icon"
+                class="popup__header-icon"
+              />
+              <span class="popup__header-text"
+                >ПОРТАЛЬНЫЙ ОБРАБАТЫВАЮЩИЙ ЦЕНТР</span
+              >
+            </div>
+            <div class="popup__header-item">
+              <img
+                src="./images/main/equipment/equipment-menu.svg"
+                alt="Icon"
+                class="popup__header-icon"
+              />
+              <span class="popup__header-text"
+                >ПОРТАЛЬНЫЙ ОБРАБАТЫВАЮЩИЙ ЦЕНТР</span
+              >
+            </div>
+            <div class="popup__header-item">
+              <img
+                src="./images/main/equipment/equipment-menu.svg"
+                alt="Icon"
+                class="popup__header-icon"
+              />
+              <span class="popup__header-text"
+                >ПОРТАЛЬНЫЙ ОБРАБАТЫВАЮЩИЙ ЦЕНТР</span
+              >
+            </div>
+            <div class="popup__header-item">
+              <img
+                src="./images/main/equipment/equipment-menu.svg"
+                alt="Icon"
+                class="popup__header-icon"
+              />
+              <span class="popup__header-text"
+                >ПОРТАЛЬНЫЙ ОБРАБАТЫВАЮЩИЙ ЦЕНТР</span
+              >
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="main__video">
+          <div class="video-container">
+            <iframe
+              id="video"
+              src="https://www.youtube.com/embed/NMYOyX-jomQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div id="video-overlay" class="video-overlay">
+              <img
+                src="your-thumbnail-image.jpg"
+                alt="Video Thumbnail"
+                class="thumbnail-image"
+              />
+              <svg
+                width="128"
+                height="128"
+                viewBox="0 0 128 128"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="play-icon"
+              >
+                <circle
+                  cx="64"
+                  cy="64"
+                  r="64"
+                  fill="#7E7D7D"
+                  fill-opacity="0.55"
+                />
+                <path
+                  d="M90.1595 62.059C90.8456 62.4399 90.8456 63.4267 90.1595 63.8076L51.6197 85.2027C50.9532 85.5727 50.1344 85.0907 50.1344 84.3284L50.1344 41.5382C50.1344 40.7758 50.9532 40.2938 51.6197 40.6639L90.1595 62.059Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+        </section>
+
+        <section class="main__saw">
+          <div class="main__saw-container container">
+            <div class="saw__cards">
+              <div class="saw__card">
+                <img
+                  src="./images/main/saw/saw1.png"
+                  alt="Saw Image"
+                  class="saw__image"
+                />
+              </div>
+              <div class="saw__card">
+                <img
+                  src="./images/main/saw/saw2.png"
+                  alt="Saw Image"
+                  class="saw__image"
+                />
+              </div>
+              <div class="saw__card">
+                <img
+                  src="./images/main/saw/saw2.png"
+                  alt="Saw Image"
+                  class="saw__image"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="support">
+          <div class="support__container container">
+            <div class="support__info">
+              <h2 class="support__title">
+                Техническая поддержка по ленточному пилению
+              </h2>
+              <p class="support__description">
+                Заполните нашу контактную форму и менеджер компании свяжется с
+                вами
+              </p>
+              <p class="support__description">
+                Заполните нашу контактную форму и менеджер компании свяжется с
+                вами
+              </p>
+            </div>
+            <img
+              class="support__image"
+              src="./images/main/form/man.png"
+              alt="man"
+            />
+            <div class="support__form">
+              <form action="#" method="POST" class="form">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form__input"
+                  placeholder="Введите имя"
+                  required
+                />
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  class="form__input"
+                  placeholder="Введите номер телефона"
+                  required
+                />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form__input"
+                  placeholder="Введите e-mail"
+                  required
+                />
+                <div class="form__checkbox-container">
+                  <input
+                    type="checkbox"
+                    id="support-consent"
+                    name="consent"
+                    class="form__checkbox"
+                    required
+                  />
+                  <label for="support-consent" class="form__checkbox-label">
+                    Нажимая на кнопку, вы соглашаетесь на обработку персональных
+                    данных и
+                    <a href="#" class="form__link"
+                      >политикой конфиденциальности</a
+                    >
+                  </label>
+                </div>
+                <button type="submit" class="form__button hover-effect">
+                  Получить консультацию
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section class="video__technologies">
+          <div class="video__technologies-container container">
+            <h1 class="video__technologies-title">
+              Технологии ленточного пиления
+            </h1>
+            <div class="video-grid">
+              <div class="custom-video-container">
+                <iframe
+                  src="https://www.youtube.com/embed/NMYOyX-jomQ?enablejsapi=1"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <div class="custom-video-overlay">
+                  <img
+                    src="./images/main/video/1.png"
+                    alt="Video Thumbnail"
+                    class="thumbnail-image"
+                  />
+                  <svg
+                    width="88"
+                    height="88"
+                    viewBox="0 0 88 88"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="play-icon"
+                  >
+                    <circle
+                      cx="44"
+                      cy="44"
+                      r="44"
+                      fill="#7E7D7D"
+                      fill-opacity="0.55"
+                    />
+                    <path
+                      d="M61.4915 42.3924C62.1777 42.7733 62.1777 43.7601 61.4915 44.141L35.9518 58.3192C35.2852 58.6892 34.4664 58.2073 34.4664 57.4449V29.0885C34.4664 28.3261 35.2852 27.8441 35.9518 28.2141L61.4915 42.3924Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="custom-video-container">
+                <iframe
+                  src="https://www.youtube.com/embed/vqwnq34pRzw?enablejsapi=1"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <div class="custom-video-overlay">
+                  <img
+                    src="./images/main/video/2.png"
+                    alt="Video Thumbnail"
+                    class="thumbnail-image"
+                  />
+                  <svg
+                    width="88"
+                    height="88"
+                    viewBox="0 0 88 88"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="play-icon"
+                  >
+                    <circle
+                      cx="44"
+                      cy="44"
+                      r="44"
+                      fill="#7E7D7D"
+                      fill-opacity="0.55"
+                    />
+                    <path
+                      d="M61.4915 42.3924C62.1777 42.7733 62.1777 43.7601 61.4915 44.141L35.9518 58.3192C35.2852 58.6892 34.4664 58.2073 34.4664 57.4449V29.0885C34.4664 28.3261 35.2852 27.8441 35.9518 28.2141L61.4915 42.3924Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="custom-video-container">
+                <iframe
+                  src="https://www.youtube.com/embed/LZjmZjK8DN4?enablejsapi=1"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <div class="custom-video-overlay">
+                  <img
+                    src="./images/main/video/3.png"
+                    alt="Video Thumbnail"
+                    class="thumbnail-image"
+                  />
+                  <svg
+                    width="88"
+                    height="88"
+                    viewBox="0 0 88 88"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="play-icon"
+                  >
+                    <circle
+                      cx="44"
+                      cy="44"
+                      r="44"
+                      fill="#7E7D7D"
+                      fill-opacity="0.55"
+                    />
+                    <path
+                      d="M61.4915 42.3924C62.1777 42.7733 62.1777 43.7601 61.4915 44.141L35.9518 58.3192C35.2852 58.6892 34.4664 58.2073 34.4664 57.4449V29.0885C34.4664 28.3261 35.2852 27.8441 35.9518 28.2141L61.4915 42.3924Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="custom-video-container">
+                <iframe
+                  src="https://www.youtube.com/embed/zpRJQ3apD-U?enablejsapi=1"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <div class="custom-video-overlay">
+                  <img
+                    src="./images/main/video/4.png"
+                    alt="Video Thumbnail"
+                    class="thumbnail-image"
+                  />
+                  <svg
+                    width="88"
+                    height="88"
+                    viewBox="0 0 88 88"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="play-icon"
+                  >
+                    <circle
+                      cx="44"
+                      cy="44"
+                      r="44"
+                      fill="#7E7D7D"
+                      fill-opacity="0.55"
+                    />
+                    <path
+                      d="M61.4915 42.3924C62.1777 42.7733 62.1777 43.7601 61.4915 44.141L35.9518 58.3192C35.2852 58.6892 34.4664 58.2073 34.4664 57.4449V29.0885C34.4664 28.3261 35.2852 27.8441 35.9518 28.2141L61.4915 42.3924Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="equipment">
+          <div class="equipment__contaner container">
+            <h2 class="equipment__title-header">Оборудование</h2>
+            <div class="equipment__cards">
+              <div class="equipment__card card1">
+                <img
+                  src="./images/main/equipment/1.png"
+                  alt="Saw Image"
+                  class="equipment__image"
+                />
+                <h1 class="equipment__title equipment__title-right">
+                  ЛЕНТОЧНОПИЛЬНЫЕ СТАНКИ VIMENS
+                </h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="equipment__arrow"
+                />
+              </div>
+              <div class="equipment__card card2">
+                <img
+                  src="./images/main/equipment/2.png"
+                  alt="Saw Image"
+                  class="equipment__image"
+                />
+                <h1 class="equipment__title">ДИСКОВЫЕ ОТРЕЗНЫЕ СТАНКИ</h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="equipment__arrow"
+                />
+              </div>
+              <div class="equipment__card card3">
+                <img
+                  src="./images/main/equipment/3.png"
+                  alt="Saw Image"
+                  class="equipment__image"
+                />
+                <h1 class="equipment__title">ЛЕНТОЧНОПИЛЬНЫЕ СТАНКИ MEBA</h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="equipment__arrow"
+                />
+              </div>
+              <div class="equipment__card card4">
+                <img
+                  src="./images/main/equipment/4.png"
+                  alt="Saw Image"
+                  class="equipment__image"
+                />
+                <h1 class="equipment__title">ЛИСТОГИБОЧНЫЕ ПРЕССЫ</h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="equipment__arrow"
+                />
+              </div>
+              <div class="equipment__card card5">
+                <img
+                  src="./images/main/equipment/5.png"
+                  alt="Saw Image"
+                  class="equipment__image"
+                />
+                <h1 class="equipment__title">ФАЗЕРНЫЕ СТАНКИ</h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="equipment__arrow"
+                />
+              </div>
+              <div class="equipment__card card6">
+                <img
+                  src="./images/main/equipment/6.png"
+                  alt="Saw Image"
+                  class="equipment__image"
+                />
+                <h1 class="equipment__title">ГИДРАВЛИЧЕСКИЕ ПРЕССЫ</h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="equipment__arrow"
+                />
+              </div>
+              <div class="equipment__card card7">
+                <img
+                  src="./images/main/equipment/7.png"
+                  alt="Saw Image"
+                  class="equipment__image"
+                />
+                <h1 class="equipment__title equipment__title-left">
+                  ТОКАРНЫЕ СТАНКИ
+                </h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="equipment__arrow"
+                />
+              </div>
+              <div class="equipment__card card8">
+                <img
+                  src="./images/main/equipment/8.png"
+                  alt="Saw Image"
+                  class="equipment__image"
+                />
+                <h1 class="equipment__title equipment__title-right">
+                  СВЕРИЛЬНЫЕ СТАНКИ <br />
+                  С ЧПУ
+                </h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="equipment__arrow"
+                />
+              </div>
+              <div class="equipment__card card9">
+                <img
+                  src="./images/main/equipment/9.png"
+                  alt="Saw Image"
+                  class="equipment__image"
+                />
+                <h1 class="equipment__title">ДРОБЕМЕНТОНОЕ ОБОРУДОЛВАНИЕ</h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="equipment__arrow"
+                />
+              </div>
+              <div class="equipment__card card10">
+                <img
+                  src="./images/main/equipment/10.png"
+                  alt="Saw Image"
+                  class="equipment__image"
+                />
+                <h1 class="equipment__title">ПРОФЕЛЕГИБЫ</h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="equipment__arrow"
+                />
+              </div>
+              <div class="equipment__card card11">
+                <img
+                  src="./images/main/equipment/11.png"
+                  alt="Saw Image"
+                  class="equipment__image"
+                />
+                <h1 class="equipment__title">РЕЗЬБОНАРЕЗНЫЕ МАНИПУЛЯТОРЫ</h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="equipment__arrow"
+                />
+              </div>
+              <div class="equipment__card card12">
+                <img
+                  src="./images/main/equipment/12.png"
+                  alt="Saw Image"
+                  class="equipment__image"
+                />
+                <h1 class="equipment__title">ВАЛЬЦЫ</h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="equipment__arrow"
+                />
+              </div>
+              <div class="equipment__card card13">
+                <img
+                  src="./images/main/equipment/13.png"
+                  alt="Saw Image"
+                  class="equipment__image"
+                />
+                <h1 class="equipment__title equipment__title-style">
+                  ОБОРУДОВАНИЕ <br />
+                  ДЛЯ КОМПЛЕКСНОЙ ОБРАБОТКИ ЛИСТОВОГО МЕТАЛЛА
+                </h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="equipment__arrow"
+                />
+              </div>
+              <div class="equipment__card card14">
+                <img
+                  src="./images/main/equipment/14.png"
+                  alt="Saw Image"
+                  class="equipment__image"
+                />
+                <h1 class="equipment__title equipment__title-right">
+                  ОКРАСОЧНОЕ ОБОРУДОВАНИЕ
+                </h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="equipment__arrow"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="carousel">
+          <div class="carousel__container container">
+            <div class="carousel__content">
+              <h2 class="carousel__title">Оборудование на складе</h2>
+              <button class="carousel__view-all">Смотреть все</button>
+            </div>
+            <div class="carousel__cards">
+              <div class="carousel__track">
+                <div class="carousel__item">
+                  <h3 class="carousel__item-title">
+                    Пресс-ножницы<br />
+                    серии BENDICROP
+                  </h3>
+                  <img
+                    src="./images/main/equipment/carousel.svg"
+                    alt="Пресс-ножницы серии BENDICROP"
+                    class="carousel__image"
+                  />
+                  <p class="carousel__item-description">
+                    Настольный/с оранжевой буквой
+                    Bhdgghsgdvhsdcgcsjhjkhsgdjgjjhs dhgjhgjhgjkghkjgkjkdsgh
+                  </p>
+                </div>
+                <div class="carousel__item">
+                  <h3 class="carousel__item-title">
+                    Пресс-ножницы<br />
+                    серии BENDICROP
+                  </h3>
+                  <img
+                    src="./images/main/equipment/carousel.svg"
+                    alt="Пресс-ножницы серии BENDICROP"
+                    class="carousel__image"
+                  />
+                  <p class="carousel__item-description">
+                    Настольный/с оранжевой буквой
+                    Bhdgghsgdvhsdcgcsjhjkhsgdjgjjhs dhgjhgjhgjkghkjgkjkdsgh
+                  </p>
+                </div>
+                <div class="carousel__item">
+                  <h3 class="carousel__item-title">
+                    Пресс-ножницы<br />
+                    серии BENDICROP
+                  </h3>
+                  <img
+                    src="./images/main/equipment/carousel.svg"
+                    alt="Пресс-ножницы серии BENDICROP"
+                    class="carousel__image"
+                  />
+                  <p class="carousel__item-description">
+                    Настольный/с оранжевой буквой
+                    Bhdgghsgdvhsdcgcsjhjkhsgdjgjjhs dhgjhgjhgjkghkjgkjkdsgh
+                  </p>
+                </div>
+                <div class="carousel__item">
+                  <h3 class="carousel__item-title">
+                    Пресс-ножницы<br />
+                    серии BENDICROP
+                  </h3>
+                  <img
+                    src="./images/main/equipment/carousel.svg"
+                    alt="Пресс-ножницы серии BENDICROP"
+                    class="carousel__image"
+                  />
+                  <p class="carousel__item-description">
+                    Настольный/с оранжевой буквой
+                    Bhdgghsgdvhsdcgcsjhjkhsgdjgjjhs dhgjhgjhgjkghkjgkjkdsgh
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel__nav">
+              <span class="carousel__indicator"></span>
+              <span class="carousel__indicator"></span>
+              <span class="carousel__indicator"></span>
+              <span class="carousel__indicator"></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="statistics">
+          <div class="statistics__container container">
+            <div class="statistics__items">
+              <div class="statistics__item">
+                <h1 class="statistics__title">30 лет</h1>
+                <p class="statistics__info">в металлообработке</p>
+              </div>
+              <div class="statistics__item">
+                <h1 class="statistics__title">5000 +</h1>
+                <p class="statistics__info">введенных в эксплуатацию стануов</p>
+              </div>
+              <div class="statistics__item">
+                <h1 class="statistics__title">2000 км</h1>
+                <p class="statistics__info">сваренных ленточных пил</p>
+              </div>
+              <div class="statistics__item">
+                <h1 class="statistics__title">50 +</h1>
+                <p class="statistics__info">проектов запуска заводов с нуля</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="service">
+          <div class="service__container-mans">
+            <img
+              class="service__image2"
+              src="./images/main/form/mans.png"
+              alt="mans"
+            />
+            <div class="service__form">
+              <h1 class="service__form-title">Сервис 24/7</h1>
+              <p class="service__form-text">
+                Заполните нашу контактную форму<br />и менеджер компании
+                свяжется с вами
+              </p>
+              <div class="support__form">
+                <form action="#" method="POST" class="form service__form-width">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form__input"
+                    placeholder="Введите имя"
+                    required
+                  />
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    class="form__input"
+                    placeholder="Введите номер телефона"
+                    required
+                  />
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form__input"
+                    placeholder="Введите e-mail"
+                    required
+                  />
+                  <div class="form__checkbox-container">
+                    <input
+                      type="checkbox"
+                      id="service-consent"
+                      name="consent"
+                      class="form__checkbox"
+                      required
+                    />
+                    <label for="service-consent" class="form__checkbox-label">
+                      Нажимая на кнопку, вы соглашаетесь на обработку
+                      персональных данных и
+                      <a href="#" class="form__link"
+                        >политикой конфиденциальности</a
+                      >
+                    </label>
+                  </div>
+                  <button
+                    type="submit"
+                    class="form__button form__button-service hover-effect"
+                  >
+                    Получить консультацию
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="tools">
+          <div class="tools__container container">
+            <h1 class="tools__title-header">Инструмент</h1>
+            <div class="tools__cards">
+              <div class="tools__card">
+                <img
+                  src="./images/main/equipment/tool1.png"
+                  alt="Saw Image"
+                  class="tools__image"
+                />
+                <h1 class="tools__title">ОКРАСОЧНОЕ ОБОРУДОВАНИЕ</h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="tools__arrow"
+                />
+              </div>
+              <div class="tools__card">
+                <img
+                  src="./images/main/equipment/tool2.png"
+                  alt="Saw Image"
+                  class="tools__image"
+                />
+                <h1 class="tools__title">ОКРАСОЧНОЕ ОБОРУДОВАНИЕ</h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="tools__arrow"
+                />
+              </div>
+              <div class="tools__card">
+                <img
+                  src="./images/main/equipment/tool3.png"
+                  alt="Saw Image"
+                  class="tools__image"
+                />
+                <h1 class="tools__title">ОКРАСОЧНОЕ ОБОРУДОВАНИЕ</h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="tools__arrow"
+                />
+              </div>
+              <div class="tools__card">
+                <img
+                  src="./images/main/equipment/tool4.png"
+                  alt="Saw Image"
+                  class="tools__image"
+                />
+                <h1 class="tools__title">ОКРАСОЧНОЕ ОБОРУДОВАНИЕ</h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="tools__arrow"
+                />
+              </div>
+              <div class="tools__card">
+                <img
+                  src="./images/main/equipment/tool5.png"
+                  alt="Saw Image"
+                  class="tools__image"
+                />
+                <h1 class="tools__title">ОКРАСОЧНОЕ ОБОРУДОВАНИЕ</h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="tools__arrow"
+                />
+              </div>
+              <div class="tools__card">
+                <img
+                  src="./images/main/equipment/tool6.png"
+                  alt="Saw Image"
+                  class="tools__image"
+                />
+                <h1 class="tools__title">ОКРАСОЧНОЕ ОБОРУДОВАНИЕ</h1>
+                <img
+                  src="./images/main/saw/Group 74141.svg"
+                  alt="arrow"
+                  class="tools__arrow"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about__us">
+          <div class="about__us-container container">
+            <h1 class="about__us-title">О компании</h1>
+            <div class="about__us-content">
+              <div class="about__us-text">
+                <span>
+                  Холодильник оснащен функцией, обеспечивающей быстрое
+                  охлаждение продуктов, что способствует поддержанию стабильной
+                  температуры внутри холодильной камеры. В зависимости от
+                  модели, эта функция включается либо автоматически, либо по
+                  нажатию кнопки. Данная функция крайне полезна для быстрого
+                  восстановления заданного уровня температуры после открытия
+                  дверцы или при повышенной температуре в помещении. Если
+                  функция включена, то во всем приборе поддерживается
+                  практически одинаковая температура. Это означает, что продукты
+                  можно хранить на любой полке или в любом ящике. В зависимости
+                  от модели, эта функция включается либо автоматически, либо по
+                  нажатию кнопки. Данная функция крайне полезна для быстрого
+                  восстановления заданного уровня температуры после открытия
+                  дверцы или при повышенной температуре в помещении. Если
+                  функция включена, то во всем приборе поддерживается
+                  практически одинаковая температура. Это означает, что продукты
+                  можно хранить на любой полке или в любом ящике.
+                </span>
+              </div>
+              <div class="about__us-video-container">
+                <iframe
+                  src="https://www.youtube.com/embed/DrZ5AzR4-lk?enablejsapi=1"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="about__us-video-iframe"
+                ></iframe>
+                <div class="about__us-video-overlay">
+                  <img
+                    src="./images/main/video/about us.png"
+                    alt="Video Thumbnail"
+                    class="about__us-video-thumbnail"
+                  />
+                  <svg
+                    width="88"
+                    height="88"
+                    viewBox="0 0 88 88"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="about__us-video-icon"
+                  >
+                    <circle
+                      cx="44"
+                      cy="44"
+                      r="44"
+                      fill="#7E7D7D"
+                      fill-opacity="0.55"
+                    />
+                    <path
+                      d="M61.4915 42.3924C62.1777 42.7733 62.1777 43.7601 61.4915 44.141L35.9518 58.3192C35.2852 58.6892 34.4664 58.2073 34.4664 57.4449V29.0885C34.4664 28.3261 35.2852 27.8441 35.9518 28.2141L61.4915 42.3924Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="partners">
+          <div class="partners__container container">
+            <h1 class="partners__title">Нам доверяют</h1>
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="partners__logo">
+                    <img src="./images/main/partners/1.svg" alt="partners" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="partners__logo">
+                    <img src="./images/main/partners/2.svg" alt="partners" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="partners__logo">
+                    <img src="./images/main/partners/3.svg" alt="partners" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="partners__logo">
+                    <img src="./images/main/partners/4.svg" alt="partners" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="partners__logo">
+                    <img src="./images/main/partners/5.svg" alt="partners" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="partners__logo">
+                    <img src="./images/main/partners/7.svg" alt="partners" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="partners__logo">
+                    <img src="./images/main/partners/6.svg" alt="partners" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="event">
+          <div class="event__container container">
+            <h1 class="event__title">События компании</h1>
+            <div class="event__items">
+              <article class="event__item event__item1">
+                <div class="event__item-image-wrapper">
+                  <img
+                    class="event__item-image"
+                    src="./images/main/event.png"
+                    alt="event"
+                  />
+                  <h1 class="event__item-title">
+                    Как правильно заряжать электросамокат
+                  </h1>
+                </div>
+                <div class="event__item-content-wrapper">
+                  <p class="event__item-text">
+                    Как правильно заряжать электросамокат Как правильно заряжать
+                    электросамокат Как Как правильно заряжать электросамокат Как
+                    правильно заряжать электросамокат Как Как правильно заряжать
+                    электросамокат Как правильно заряжать электросамокат Как
+                  </p>
+                  <a class="event__item-more" href="">Читать далее</a>
+                </div>
+              </article>
+              <article class="event__item event__item2">
+                <div class="event__item-image-wrapper">
+                  <img
+                    class="event__item-image"
+                    src="./images/main/event.png"
+                    alt="event"
+                  />
+                  <h1 class="event__item-title">
+                    Как правильно заряжать электросамокат
+                  </h1>
+                </div>
+                <div class="event__item-content-wrapper">
+                  <p class="event__item-text">
+                    Как правильно заряжать электросамокат Как правильно заряжать
+                    электросамокат Как Как правильно заряжать электросамокат Как
+                    правильно заряжать электросамокат Как Как правильно заряжать
+                    электросамокат Как правильно заряжать электросамокат Как
+                  </p>
+                  <a class="event__item-more" href="">Читать далее</a>
+                </div>
+              </article>
+              <article class="event__item event__item3">
+                <div class="event__item-image-wrapper">
+                  <img
+                    class="event__item-image"
+                    src="./images/main/event.png"
+                    alt="event"
+                  />
+                  <h1 class="event__item-title">
+                    Как правильно заряжать электросамокат
+                  </h1>
+                </div>
+                <div class="event__item-content-wrapper">
+                  <p class="event__item-text">
+                    Как правильно заряжать электросамокат Как правильно заряжать
+                    электросамокат Как Как правильно заряжать электросамокат Как
+                    правильно заряжать электросамокат Как Как правильно заряжать
+                    электросамокат Как правильно заряжать электросамокат Как
+                  </p>
+                  <a class="event__item-more" href="">Читать далее</a>
+                </div>
+              </article>
+              <article class="event__item event__item4">
+                <div class="event__item-image-wrapper">
+                  <img
+                    class="event__item-image"
+                    src="./images/main/event.png"
+                    alt="event"
+                  />
+                  <h1 class="event__item-title">
+                    Как правильно заряжать электросамокат
+                  </h1>
+                </div>
+                <div class="event__item-content-wrapper">
+                  <p class="event__item-text">
+                    Как правильно заряжать электросамокат Как правильно заряжать
+                    электросамокат Как Как правильно заряжать электросамокат Как
+                    правильно заряжать электросамокат Как Как правильно заряжать
+                    электросамокат Как правильно заряжать электросамокат Как
+                  </p>
+                  <a class="event__item-more" href="">Читать далее</a>
+                </div>
+              </article>
+              <article class="event__item event__item5">
+                <div class="event__item-image-wrapper">
+                  <img
+                    class="event__item-image"
+                    src="./images/main/event.png"
+                    alt="event"
+                  />
+                  <h1 class="event__item-title">
+                    Как правильно заряжать электросамокат
+                  </h1>
+                </div>
+                <div class="event__item-content-wrapper">
+                  <p class="event__item-text">
+                    Как правильно заряжать электросамокат Как правильно заряжать
+                    электросамокат Как Как правильно заряжать электросамокат Как
+                    правильно заряжать электросамокат Как Как правильно заряжать
+                    электросамокат Как правильно заряжать электросамокат Как
+                  </p>
+                  <a class="event__item-more" href="">Читать далее</a>
+                </div>
+              </article>
+              <article class="event__item event__item6">
+                <div class="event__item-image-wrapper">
+                  <img
+                    class="event__item-image"
+                    src="./images/main/event.png"
+                    alt="event"
+                  />
+                  <h1 class="event__item-title">
+                    Как правильно заряжать электросамокат
+                  </h1>
+                </div>
+                <div class="event__item-content-wrapper">
+                  <p class="event__item-text">
+                    Как правильно заряжать электросамокат Как правильно заряжать
+                    электросамокат Как Как правильно заряжать электросамокат Как
+                    правильно заряжать электросамокат Как Как правильно заряжать
+                    электросамокат Как правильно заряжать электросамокат Как
+                  </p>
+                  <a class="event__item-more" href="">Читать далее</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="reviews__container container">
+            <h1 class="reviews__title">Отзывы</h1>
+            <div class="swiper-container reviews-swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide reviews__content">
+                  <div class="reviews__header">
+                    <h2 class="reviews__name">ОАО "КЭТШ"</h2>
+                    <div class="reviews__star">
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                    </div>
+                    <div class="reviews__date">23.09.2020</div>
+                  </div>
+                  <div class="reviews__block">
+                    <img
+                      class="reviews__doc"
+                      src="./images/main/partners/reviews.png"
+                      alt="reviews"
+                    />
+                    <div class="reviews__text">
+                      <span
+                        >Отличительной чертой компании является её гибкость,
+                        мобильность и оперативность. ОАО «КЭТШ» выражает
+                        благодарность строителю ленточных пил!</span
+                      >
+                      <a class="reviews__link" href="#">Читать полностью</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide reviews__content">
+                  <div class="reviews__header">
+                    <h2 class="reviews__name">ОАО "КЭТШ"</h2>
+                    <div class="reviews__star">
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                    </div>
+                    <div class="reviews__date">23.09.2020</div>
+                  </div>
+                  <div class="reviews__block">
+                    <img
+                      class="reviews__doc"
+                      src="./images/main/partners/reviews.png"
+                      alt="reviews"
+                    />
+                    <div class="reviews__text">
+                      <span
+                        >Отличительной чертой компании является её гибкость,
+                        мобильность и оперативность. ОАО «КЗТШ» выражает
+                        благодарность отделу ленточных пил «ВИ-</span
+                      >
+                      <a class="reviews__link" href="#">Читать полностью</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide reviews__content">
+                  <div class="reviews__header">
+                    <h2 class="reviews__name">ОАО "КЭТШ"</h2>
+                    <div class="reviews__star">
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                    </div>
+                    <div class="reviews__date">23.09.2020</div>
+                  </div>
+                  <div class="reviews__block">
+                    <img
+                      class="reviews__doc"
+                      src="./images/main/partners/reviews.png"
+                      alt="reviews"
+                    />
+                    <div class="reviews__text">
+                      <span
+                        >Отличительной чертой компании является её гибкость,
+                        мобильность и оперативность. ОАО «КЗТШ» выражает
+                        благодарность отделу ленточных пил «ВИ-</span
+                      >
+                      <a class="reviews__link" href="#">Читать полностью</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide reviews__content">
+                  <div class="reviews__header">
+                    <h2 class="reviews__name">ОАО "КЭТШ"</h2>
+                    <div class="reviews__star">
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                      <img src="./images/main/partners/Star.svg" alt="звезда" />
+                    </div>
+                    <div class="reviews__date">23.09.2020</div>
+                  </div>
+                  <div class="reviews__block">
+                    <img
+                      class="reviews__doc"
+                      src="./images/main/partners/reviews.png"
+                      alt="reviews"
+                    />
+                    <div class="reviews__text">
+                      <span
+                        >Отличительной чертой компании является её гибкость,
+                        мобильность и оперативность. ОАО «КЗТШ» выражает
+                        благодарность отделу ленточных пил «ВИ-</span
+                      >
+                      <a class="reviews__link" href="#">Читать полностью</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="feedback">
+          <div class="feedback__container container">
+            <div class="feedback__item">
+              <div class="feedback__info">
+                <h2 class="feedback__title">Форма обратной связи</h2>
+                <p class="feedback__description">
+                  Наши консультанты рассчитают сроки и стоимость доставки,
+                  ответят на вопросы, касающиеся выбора и приобретения продуктов
+                  Kugoo.
+                </p>
+              </div>
+              <div class="feedback__form">
+                <form action="#" method="POST" class="feedback__form-content">
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    class="feedback__input"
+                    placeholder="+7 (___) ___-__-__"
+                    required
+                  />
+                  <button type="submit" class="form__button hover-effect">
+                    Получить консультацию
+                  </button>
+                  <div class="new-feedback__checkbox-container">
+                    <input
+                      type="checkbox"
+                      id="new-feedback-consent"
+                      name="consent"
+                      class="new-feedback__checkbox"
+                      required
+                    />
+                    <label
+                      for="new-feedback-consent"
+                      class="new-feedback__checkbox-label"
+                    >
+                      Нажимая на кнопку, вы соглашаетесь на обработку
+                      персональных данных
+                      <a href="#" class="feedback__link"
+                        >политикой конфиденциальности</a
+                      >
+                    </label>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <img
+              class="feedback__image"
+              src="./images/main/form/man-Feedback.png"
+              alt="man"
+            />
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__header">
+            <div class="footer__logo">
+              <img src="./images/footer/logo.svg" alt="Logo" />
+            </div>
+            <div class="footer__contact">
+              <div class="footer__contact-section">
+                <h3 class="footer__contact-title">
+                  Отдел продаж ленточных пил
+                </h3>
+                <ul class="footer__contact-list">
+                  <li class="footer__contact-item">
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.69654 0.0323839C1.56997 0.0769243 1.42935 0.198824 0.918391 0.705175C0.353529 1.26544 0.208212 1.4858 0.0746142 1.98746C-0.00507586 2.28753 -0.0238265 2.90171 0.0324254 3.28851C0.264464 4.84741 1.41528 6.82125 3.10518 8.54894C5.0154 10.504 7.09203 11.7511 8.80068 11.9762C9.13819 12.0207 9.73586 11.9926 10.0077 11.9199C10.5117 11.7863 10.7296 11.6433 11.2898 11.0784C11.9648 10.3962 12 10.3446 12 10.0047C12 9.68354 12.007 9.69292 10.8 8.49034C9.59992 7.29478 9.66321 7.34401 9.3046 7.34401C9.01162 7.34636 8.94834 7.38386 8.48192 7.83864C8.07644 8.23482 7.97096 8.30983 7.71783 8.37547C7.32172 8.47861 7.00531 8.37078 6.26935 7.88318C5.8123 7.57843 5.48182 7.30885 5.08571 6.91033C4.68726 6.51416 4.41772 6.18362 4.11303 5.7265C3.62551 4.99041 3.51769 4.67394 3.62082 4.27777C3.68645 4.02225 3.76145 3.91676 4.15756 3.51121C4.59585 3.06581 4.64273 2.98845 4.65914 2.71652C4.66617 2.57352 4.65914 2.51023 4.61695 2.3977C4.56773 2.26408 4.50913 2.20079 3.50597 1.19512C2.29422 -0.021533 2.31297 -0.00746822 1.98249 -0.00277996C1.87702 -0.00277996 1.75045 0.0136299 1.69654 0.0323839Z"
+                        fill="white"
+                      />
+                    </svg>
+                    +375 17 270 00 76
+                  </li>
+                  <li class="footer__contact-item">
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.69654 0.0323839C1.56997 0.0769243 1.42935 0.198824 0.918391 0.705175C0.353529 1.26544 0.208212 1.4858 0.0746142 1.98746C-0.00507586 2.28753 -0.0238265 2.90171 0.0324254 3.28851C0.264464 4.84741 1.41528 6.82125 3.10518 8.54894C5.0154 10.504 7.09203 11.7511 8.80068 11.9762C9.13819 12.0207 9.73586 11.9926 10.0077 11.9199C10.5117 11.7863 10.7296 11.6433 11.2898 11.0784C11.9648 10.3962 12 10.3446 12 10.0047C12 9.68354 12.007 9.69292 10.8 8.49034C9.59992 7.29478 9.66321 7.34401 9.3046 7.34401C9.01162 7.34636 8.94834 7.38386 8.48192 7.83864C8.07644 8.23482 7.97096 8.30983 7.71783 8.37547C7.32172 8.47861 7.00531 8.37078 6.26935 7.88318C5.8123 7.57843 5.48182 7.30885 5.08571 6.91033C4.68726 6.51416 4.41772 6.18362 4.11303 5.7265C3.62551 4.99041 3.51769 4.67394 3.62082 4.27777C3.68645 4.02225 3.76145 3.91676 4.15756 3.51121C4.59585 3.06581 4.64273 2.98845 4.65914 2.71652C4.66617 2.57352 4.65914 2.51023 4.61695 2.3977C4.56773 2.26408 4.50913 2.20079 3.50597 1.19512C2.29422 -0.021533 2.31297 -0.00746822 1.98249 -0.00277996C1.87702 -0.00277996 1.75045 0.0136299 1.69654 0.0323839Z"
+                        fill="white"
+                      />
+                    </svg>
+                    +375 17 270 00 76
+                  </li>
+                  <li class="footer__contact-item">
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.69654 0.0323839C1.56997 0.0769243 1.42935 0.198824 0.918391 0.705175C0.353529 1.26544 0.208212 1.4858 0.0746142 1.98746C-0.00507586 2.28753 -0.0238265 2.90171 0.0324254 3.28851C0.264464 4.84741 1.41528 6.82125 3.10518 8.54894C5.0154 10.504 7.09203 11.7511 8.80068 11.9762C9.13819 12.0207 9.73586 11.9926 10.0077 11.9199C10.5117 11.7863 10.7296 11.6433 11.2898 11.0784C11.9648 10.3962 12 10.3446 12 10.0047C12 9.68354 12.007 9.69292 10.8 8.49034C9.59992 7.29478 9.66321 7.34401 9.3046 7.34401C9.01162 7.34636 8.94834 7.38386 8.48192 7.83864C8.07644 8.23482 7.97096 8.30983 7.71783 8.37547C7.32172 8.47861 7.00531 8.37078 6.26935 7.88318C5.8123 7.57843 5.48182 7.30885 5.08571 6.91033C4.68726 6.51416 4.41772 6.18362 4.11303 5.7265C3.62551 4.99041 3.51769 4.67394 3.62082 4.27777C3.68645 4.02225 3.76145 3.91676 4.15756 3.51121C4.59585 3.06581 4.64273 2.98845 4.65914 2.71652C4.66617 2.57352 4.65914 2.51023 4.61695 2.3977C4.56773 2.26408 4.50913 2.20079 3.50597 1.19512C2.29422 -0.021533 2.31297 -0.00746822 1.98249 -0.00277996C1.87702 -0.00277996 1.75045 0.0136299 1.69654 0.0323839Z"
+                        fill="white"
+                      />
+                    </svg>
+                    +375 17 270 00 76
+                  </li>
+                </ul>
+                <a class="footer__contact-email" href="mailto:info@vimens.ru">
+                  <svg
+                    width="15"
+                    height="10"
+                    viewBox="0 0 15 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.827181 0.050437C0.648471 0.105133 0.4639 0.214524 0.323275 0.344752C0.203158 0.456748 0.162142 0.610417 0.223666 0.722413C0.247103 0.764086 0.950228 1.31365 1.86429 2.00646C3.80374 3.46762 5.75199 4.95222 6.543 5.56689C6.86234 5.81693 7.17874 6.04353 7.24613 6.06957C7.42191 6.13989 7.60941 6.13208 7.78812 6.04873C7.87015 6.00706 8.2305 5.74661 8.58792 5.46792C9.40531 4.8298 11.0694 3.56399 13.1319 2.00646C14.0459 1.31365 14.7491 0.764086 14.7725 0.722413C14.834 0.610417 14.793 0.456748 14.6729 0.344752C14.5264 0.21192 14.3448 0.105133 14.1573 0.0478325C13.9961 -0.00165415 13.8526 -0.00165415 7.48636 0.000950336C1.22855 0.000950336 0.973666 0.0035553 0.827181 0.050437Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M0.161133 1.64467C0.128906 1.66029 0.0791016 1.69676 0.0527344 1.72801C0.00585938 1.7801 0 2.01451 0 5.44472C0 8.79158 0.00292969 9.11715 0.0498047 9.23435C0.178711 9.57294 0.483398 9.84382 0.861328 9.95581C0.996094 9.99749 1.53223 10.0001 7.5 10.0001C13.4678 10.0001 14.0039 9.99749 14.1387 9.95581C14.5166 9.84382 14.8213 9.57294 14.9502 9.23435C14.9971 9.11715 15 8.79158 15 5.44472C15 2.01451 14.9941 1.7801 14.9473 1.72801C14.833 1.60039 14.6543 1.57955 14.4961 1.67332C14.335 1.77229 10.1455 4.94725 8.90625 5.91093C8.31445 6.37194 8.17969 6.46831 8.05957 6.52301C7.76074 6.65584 7.41211 6.67667 7.10449 6.5777C6.85547 6.49696 6.78223 6.45008 6.25488 6.03856C5.12109 5.1478 0.685547 1.78531 0.503906 1.67332C0.395508 1.6082 0.257812 1.59779 0.161133 1.64467Z"
+                      fill="white"
+                    /></svg
+                  >info@vimens.ru</a
+                >
+              </div>
+              <div class="footer__contact-line"></div>
+              <div class="footer__contact-section">
+                <h3 class="footer__contact-title">Отдел продаж оборудования</h3>
+                <ul class="footer__contact-list">
+                  <li class="footer__contact-item">
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.69654 0.0323839C1.56997 0.0769243 1.42935 0.198824 0.918391 0.705175C0.353529 1.26544 0.208212 1.4858 0.0746142 1.98746C-0.00507586 2.28753 -0.0238265 2.90171 0.0324254 3.28851C0.264464 4.84741 1.41528 6.82125 3.10518 8.54894C5.0154 10.504 7.09203 11.7511 8.80068 11.9762C9.13819 12.0207 9.73586 11.9926 10.0077 11.9199C10.5117 11.7863 10.7296 11.6433 11.2898 11.0784C11.9648 10.3962 12 10.3446 12 10.0047C12 9.68354 12.007 9.69292 10.8 8.49034C9.59992 7.29478 9.66321 7.34401 9.3046 7.34401C9.01162 7.34636 8.94834 7.38386 8.48192 7.83864C8.07644 8.23482 7.97096 8.30983 7.71783 8.37547C7.32172 8.47861 7.00531 8.37078 6.26935 7.88318C5.8123 7.57843 5.48182 7.30885 5.08571 6.91033C4.68726 6.51416 4.41772 6.18362 4.11303 5.7265C3.62551 4.99041 3.51769 4.67394 3.62082 4.27777C3.68645 4.02225 3.76145 3.91676 4.15756 3.51121C4.59585 3.06581 4.64273 2.98845 4.65914 2.71652C4.66617 2.57352 4.65914 2.51023 4.61695 2.3977C4.56773 2.26408 4.50913 2.20079 3.50597 1.19512C2.29422 -0.021533 2.31297 -0.00746822 1.98249 -0.00277996C1.87702 -0.00277996 1.75045 0.0136299 1.69654 0.0323839Z"
+                        fill="white"
+                      />
+                    </svg>
+                    +375 17 270 00 76
+                  </li>
+                  <li class="footer__contact-item">
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.69654 0.0323839C1.56997 0.0769243 1.42935 0.198824 0.918391 0.705175C0.353529 1.26544 0.208212 1.4858 0.0746142 1.98746C-0.00507586 2.28753 -0.0238265 2.90171 0.0324254 3.28851C0.264464 4.84741 1.41528 6.82125 3.10518 8.54894C5.0154 10.504 7.09203 11.7511 8.80068 11.9762C9.13819 12.0207 9.73586 11.9926 10.0077 11.9199C10.5117 11.7863 10.7296 11.6433 11.2898 11.0784C11.9648 10.3962 12 10.3446 12 10.0047C12 9.68354 12.007 9.69292 10.8 8.49034C9.59992 7.29478 9.66321 7.34401 9.3046 7.34401C9.01162 7.34636 8.94834 7.38386 8.48192 7.83864C8.07644 8.23482 7.97096 8.30983 7.71783 8.37547C7.32172 8.47861 7.00531 8.37078 6.26935 7.88318C5.8123 7.57843 5.48182 7.30885 5.08571 6.91033C4.68726 6.51416 4.41772 6.18362 4.11303 5.7265C3.62551 4.99041 3.51769 4.67394 3.62082 4.27777C3.68645 4.02225 3.76145 3.91676 4.15756 3.51121C4.59585 3.06581 4.64273 2.98845 4.65914 2.71652C4.66617 2.57352 4.65914 2.51023 4.61695 2.3977C4.56773 2.26408 4.50913 2.20079 3.50597 1.19512C2.29422 -0.021533 2.31297 -0.00746822 1.98249 -0.00277996C1.87702 -0.00277996 1.75045 0.0136299 1.69654 0.0323839Z"
+                        fill="white"
+                      />
+                    </svg>
+                    +375 17 270 00 81
+                  </li>
+                  <li class="footer__contact-item">
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.69654 0.0323839C1.56997 0.0769243 1.42935 0.198824 0.918391 0.705175C0.353529 1.26544 0.208212 1.4858 0.0746142 1.98746C-0.00507586 2.28753 -0.0238265 2.90171 0.0324254 3.28851C0.264464 4.84741 1.41528 6.82125 3.10518 8.54894C5.0154 10.504 7.09203 11.7511 8.80068 11.9762C9.13819 12.0207 9.73586 11.9926 10.0077 11.9199C10.5117 11.7863 10.7296 11.6433 11.2898 11.0784C11.9648 10.3962 12 10.3446 12 10.0047C12 9.68354 12.007 9.69292 10.8 8.49034C9.59992 7.29478 9.66321 7.34401 9.3046 7.34401C9.01162 7.34636 8.94834 7.38386 8.48192 7.83864C8.07644 8.23482 7.97096 8.30983 7.71783 8.37547C7.32172 8.47861 7.00531 8.37078 6.26935 7.88318C5.8123 7.57843 5.48182 7.30885 5.08571 6.91033C4.68726 6.51416 4.41772 6.18362 4.11303 5.7265C3.62551 4.99041 3.51769 4.67394 3.62082 4.27777C3.68645 4.02225 3.76145 3.91676 4.15756 3.51121C4.59585 3.06581 4.64273 2.98845 4.65914 2.71652C4.66617 2.57352 4.65914 2.51023 4.61695 2.3977C4.56773 2.26408 4.50913 2.20079 3.50597 1.19512C2.29422 -0.021533 2.31297 -0.00746822 1.98249 -0.00277996C1.87702 -0.00277996 1.75045 0.0136299 1.69654 0.0323839Z"
+                        fill="white"
+                      />
+                    </svg>
+                    +375 17 270 00 76
+                  </li>
+                </ul>
+                <a class="footer__contact-email" href="mailto:info@vimens.ru">
+                  <svg
+                    width="15"
+                    height="10"
+                    viewBox="0 0 15 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.827181 0.050437C0.648471 0.105133 0.4639 0.214524 0.323275 0.344752C0.203158 0.456748 0.162142 0.610417 0.223666 0.722413C0.247103 0.764086 0.950228 1.31365 1.86429 2.00646C3.80374 3.46762 5.75199 4.95222 6.543 5.56689C6.86234 5.81693 7.17874 6.04353 7.24613 6.06957C7.42191 6.13989 7.60941 6.13208 7.78812 6.04873C7.87015 6.00706 8.2305 5.74661 8.58792 5.46792C9.40531 4.8298 11.0694 3.56399 13.1319 2.00646C14.0459 1.31365 14.7491 0.764086 14.7725 0.722413C14.834 0.610417 14.793 0.456748 14.6729 0.344752C14.5264 0.21192 14.3448 0.105133 14.1573 0.0478325C13.9961 -0.00165415 13.8526 -0.00165415 7.48636 0.000950336C1.22855 0.000950336 0.973666 0.0035553 0.827181 0.050437Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M0.161133 1.64467C0.128906 1.66029 0.0791016 1.69676 0.0527344 1.72801C0.00585938 1.7801 0 2.01451 0 5.44472C0 8.79158 0.00292969 9.11715 0.0498047 9.23435C0.178711 9.57294 0.483398 9.84382 0.861328 9.95581C0.996094 9.99749 1.53223 10.0001 7.5 10.0001C13.4678 10.0001 14.0039 9.99749 14.1387 9.95581C14.5166 9.84382 14.8213 9.57294 14.9502 9.23435C14.9971 9.11715 15 8.79158 15 5.44472C15 2.01451 14.9941 1.7801 14.9473 1.72801C14.833 1.60039 14.6543 1.57955 14.4961 1.67332C14.335 1.77229 10.1455 4.94725 8.90625 5.91093C8.31445 6.37194 8.17969 6.46831 8.05957 6.52301C7.76074 6.65584 7.41211 6.67667 7.10449 6.5777C6.85547 6.49696 6.78223 6.45008 6.25488 6.03856C5.12109 5.1478 0.685547 1.78531 0.503906 1.67332C0.395508 1.6082 0.257812 1.59779 0.161133 1.64467Z"
+                      fill="white"
+                    /></svg
+                  >info@vimens.ru</a
+                >
+              </div>
+              <div class="footer__contact-line"></div>
+              <div class="footer__contact-section">
+                <h3 class="footer__contact-title">
+                  Отдел продаж запчастей. Производство
+                </h3>
+                <ul class="footer__contact-list">
+                  <li class="footer__contact-item">
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.69654 0.0323839C1.56997 0.0769243 1.42935 0.198824 0.918391 0.705175C0.353529 1.26544 0.208212 1.4858 0.0746142 1.98746C-0.00507586 2.28753 -0.0238265 2.90171 0.0324254 3.28851C0.264464 4.84741 1.41528 6.82125 3.10518 8.54894C5.0154 10.504 7.09203 11.7511 8.80068 11.9762C9.13819 12.0207 9.73586 11.9926 10.0077 11.9199C10.5117 11.7863 10.7296 11.6433 11.2898 11.0784C11.9648 10.3962 12 10.3446 12 10.0047C12 9.68354 12.007 9.69292 10.8 8.49034C9.59992 7.29478 9.66321 7.34401 9.3046 7.34401C9.01162 7.34636 8.94834 7.38386 8.48192 7.83864C8.07644 8.23482 7.97096 8.30983 7.71783 8.37547C7.32172 8.47861 7.00531 8.37078 6.26935 7.88318C5.8123 7.57843 5.48182 7.30885 5.08571 6.91033C4.68726 6.51416 4.41772 6.18362 4.11303 5.7265C3.62551 4.99041 3.51769 4.67394 3.62082 4.27777C3.68645 4.02225 3.76145 3.91676 4.15756 3.51121C4.59585 3.06581 4.64273 2.98845 4.65914 2.71652C4.66617 2.57352 4.65914 2.51023 4.61695 2.3977C4.56773 2.26408 4.50913 2.20079 3.50597 1.19512C2.29422 -0.021533 2.31297 -0.00746822 1.98249 -0.00277996C1.87702 -0.00277996 1.75045 0.0136299 1.69654 0.0323839Z"
+                        fill="white"
+                      />
+                    </svg>
+                    +375 17 270 00 76
+                  </li>
+                  <li class="footer__contact-item">
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.69654 0.0323839C1.56997 0.0769243 1.42935 0.198824 0.918391 0.705175C0.353529 1.26544 0.208212 1.4858 0.0746142 1.98746C-0.00507586 2.28753 -0.0238265 2.90171 0.0324254 3.28851C0.264464 4.84741 1.41528 6.82125 3.10518 8.54894C5.0154 10.504 7.09203 11.7511 8.80068 11.9762C9.13819 12.0207 9.73586 11.9926 10.0077 11.9199C10.5117 11.7863 10.7296 11.6433 11.2898 11.0784C11.9648 10.3962 12 10.3446 12 10.0047C12 9.68354 12.007 9.69292 10.8 8.49034C9.59992 7.29478 9.66321 7.34401 9.3046 7.34401C9.01162 7.34636 8.94834 7.38386 8.48192 7.83864C8.07644 8.23482 7.97096 8.30983 7.71783 8.37547C7.32172 8.47861 7.00531 8.37078 6.26935 7.88318C5.8123 7.57843 5.48182 7.30885 5.08571 6.91033C4.68726 6.51416 4.41772 6.18362 4.11303 5.7265C3.62551 4.99041 3.51769 4.67394 3.62082 4.27777C3.68645 4.02225 3.76145 3.91676 4.15756 3.51121C4.59585 3.06581 4.64273 2.98845 4.65914 2.71652C4.66617 2.57352 4.65914 2.51023 4.61695 2.3977C4.56773 2.26408 4.50913 2.20079 3.50597 1.19512C2.29422 -0.021533 2.31297 -0.00746822 1.98249 -0.00277996C1.87702 -0.00277996 1.75045 0.0136299 1.69654 0.0323839Z"
+                        fill="white"
+                      />
+                    </svg>
+                    +375 17 270 00 76
+                  </li>
+                  <li class="footer__contact-item">
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.69654 0.0323839C1.56997 0.0769243 1.42935 0.198824 0.918391 0.705175C0.353529 1.26544 0.208212 1.4858 0.0746142 1.98746C-0.00507586 2.28753 -0.0238265 2.90171 0.0324254 3.28851C0.264464 4.84741 1.41528 6.82125 3.10518 8.54894C5.0154 10.504 7.09203 11.7511 8.80068 11.9762C9.13819 12.0207 9.73586 11.9926 10.0077 11.9199C10.5117 11.7863 10.7296 11.6433 11.2898 11.0784C11.9648 10.3962 12 10.3446 12 10.0047C12 9.68354 12.007 9.69292 10.8 8.49034C9.59992 7.29478 9.66321 7.34401 9.3046 7.34401C9.01162 7.34636 8.94834 7.38386 8.48192 7.83864C8.07644 8.23482 7.97096 8.30983 7.71783 8.37547C7.32172 8.47861 7.00531 8.37078 6.26935 7.88318C5.8123 7.57843 5.48182 7.30885 5.08571 6.91033C4.68726 6.51416 4.41772 6.18362 4.11303 5.7265C3.62551 4.99041 3.51769 4.67394 3.62082 4.27777C3.68645 4.02225 3.76145 3.91676 4.15756 3.51121C4.59585 3.06581 4.64273 2.98845 4.65914 2.71652C4.66617 2.57352 4.65914 2.51023 4.61695 2.3977C4.56773 2.26408 4.50913 2.20079 3.50597 1.19512C2.29422 -0.021533 2.31297 -0.00746822 1.98249 -0.00277996C1.87702 -0.00277996 1.75045 0.0136299 1.69654 0.0323839Z"
+                        fill="white"
+                      />
+                    </svg>
+                    +375 17 270 00 76
+                  </li>
+                </ul>
+                <a class="footer__contact-email" href="mailto:info@vimens.ru">
+                  <svg
+                    width="15"
+                    height="10"
+                    viewBox="0 0 15 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.827181 0.050437C0.648471 0.105133 0.4639 0.214524 0.323275 0.344752C0.203158 0.456748 0.162142 0.610417 0.223666 0.722413C0.247103 0.764086 0.950228 1.31365 1.86429 2.00646C3.80374 3.46762 5.75199 4.95222 6.543 5.56689C6.86234 5.81693 7.17874 6.04353 7.24613 6.06957C7.42191 6.13989 7.60941 6.13208 7.78812 6.04873C7.87015 6.00706 8.2305 5.74661 8.58792 5.46792C9.40531 4.8298 11.0694 3.56399 13.1319 2.00646C14.0459 1.31365 14.7491 0.764086 14.7725 0.722413C14.834 0.610417 14.793 0.456748 14.6729 0.344752C14.5264 0.21192 14.3448 0.105133 14.1573 0.0478325C13.9961 -0.00165415 13.8526 -0.00165415 7.48636 0.000950336C1.22855 0.000950336 0.973666 0.0035553 0.827181 0.050437Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M0.161133 1.64467C0.128906 1.66029 0.0791016 1.69676 0.0527344 1.72801C0.00585938 1.7801 0 2.01451 0 5.44472C0 8.79158 0.00292969 9.11715 0.0498047 9.23435C0.178711 9.57294 0.483398 9.84382 0.861328 9.95581C0.996094 9.99749 1.53223 10.0001 7.5 10.0001C13.4678 10.0001 14.0039 9.99749 14.1387 9.95581C14.5166 9.84382 14.8213 9.57294 14.9502 9.23435C14.9971 9.11715 15 8.79158 15 5.44472C15 2.01451 14.9941 1.7801 14.9473 1.72801C14.833 1.60039 14.6543 1.57955 14.4961 1.67332C14.335 1.77229 10.1455 4.94725 8.90625 5.91093C8.31445 6.37194 8.17969 6.46831 8.05957 6.52301C7.76074 6.65584 7.41211 6.67667 7.10449 6.5777C6.85547 6.49696 6.78223 6.45008 6.25488 6.03856C5.12109 5.1478 0.685547 1.78531 0.503906 1.67332C0.395508 1.6082 0.257812 1.59779 0.161133 1.64467Z"
+                      fill="white"
+                    /></svg
+                  >info@vimens.ru</a
+                >
+              </div>
+            </div>
+            <div class="footer__info">
+              <ul class="footer__info-list">
+                <li class="footer__info-item">Продукция</li>
+                <li class="footer__info-item">Вакансии</li>
+                <li class="footer__info-item">Новости</li>
+                <li class="footer__info-item">Отзывы</li>
+                <li class="footer__info-item">Сервис 24/7</li>
+                <li class="footer__info-item">Тех. поддержка</li>
+              </ul>
+            </div>
+            <div class="footer__map">
+              <img src="./images/footer/map.png" alt="Map" class="map-image" />
+              <div class="map__p map__p--p1">
+                <div class="map__text">
+                  г. Минск, <br />
+                  ул. Эм. Бабули, 13
+                </div>
+              </div>
+              <div class="map__p map__p--p2">
+                <div class="map__text">
+                  г. Минск, <br />
+                  ул. Эм. Бабули, 13
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <span class="footer__copyright">
+              <img src="./images/footer/copy.svg" alt="copy" />
+              ВИ-МЕНС <br />
+              Политика конфиденциальности</span
+            >
+            <div class="footer__social">
+              <a href="#" class="footer__social-link"
+                ><img
+                  class="shadow-scale"
+                  src="/images/footer/telegram2.svg"
+                  alt="Telegram"
+                />Telegram</a
+              >
+              <a href="#" class="footer__social-link"
+                ><img
+                  class="shadow-scale"
+                  src="./images/footer/viber.svg"
+                  alt="Viber"
+                />Viber</a
+              >
+              <a href="#" class="footer__social-link"
+                ><img
+                  class="shadow-scale"
+                  src="./images/footer/018-youtube 1.svg"
+                  alt="YouTube"
+                />YouTube</a
+              >
+            </div>
+            <span class="footer__social-text">Приглашаем на наш канал</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
